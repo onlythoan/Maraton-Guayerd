@@ -131,12 +131,14 @@ alert("Los alumnos agregados al curso son: " + agregarNombredeAlumnos);
 const ej7Nombres = ["goku","mario","melchor","mafalda","cacho","hermione","tony","pappo","leia","homero"];
 const letraMasyu = []; //nunca le puse el nombre 
 
-for (let i = 0; i < ej7Nombres.length; i++)
-{
-   let primeraMasyucula = i + "" + ej7Nombres[i].charAt(0).toLocaleUpperCase() + ej7Nombres[i].slice(1);
-   letraMasyu.push(primeraMasyucula);
+for (let i = 0; i < ej7Nombres.length; i++){
+    ej7Nombres[i] = ej7Nombres[i].charAt(0).toLocaleUpperCase() + ej7Nombres[i].slice(1);
 }
-console.log(letraMasyu);
+for ( const nombre of ej7Nombres){
+    console.log(nombre);
+}
+  
+
 
 
 
