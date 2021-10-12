@@ -128,13 +128,12 @@ while(finalizar == true);
 alert("Los alumnos agregados al curso son: " + agregarNombredeAlumnos);
 
 //Ejercicio 7
-
-const ej7Nombres = ["goku","mario","melchor","mafalda","cacho","hermione","tony","pappo","leia","homero"];
+/*const ej7Nombres = ["goku","mario","melchor","mafalda","cacho","hermione","tony","pappo","leia","homero"];
 
 for (let i = 0; i < ej7Nombres.length; i++){
-   let primeraMasyu = i + "" + ej7Nombres[i].charAt(0).toLocaleUpperCase(); 
+   let primeraMasyu = i + "" + ej7Nombres[i].charAt(0).toLocaleUpperCase(); primeraMasyu.push(primeraMasyu);
 }
-console.log(primeraMasyu)
+console.log(primeraMasyu);
 
 
 
